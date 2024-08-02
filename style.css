@@ -10,6 +10,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .container{
     height: 600px;
@@ -18,20 +19,43 @@ h2{
     border: solid 3px #66004d;
     margin: 20px;
 }
+span{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 600;
+}
 .card1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
 }
 .card2{
     display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: space-around;
+}
+.card3{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 500px;
+}
+.card4{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: space-evenly;
     height: 550px;
 }
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100px;
     background-color: #b30086;
