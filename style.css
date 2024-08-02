@@ -40,12 +40,24 @@ span{
 }
 .card3{
     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+}
+.card4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: center;
+}
+.card5{
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 500px;
 }
-.card4{
+.card6{
     display: flex;
     flex-direction: column-reverse;
     align-items: end;
