@@ -36,25 +36,25 @@ span{
     display: flex;
     flex-direction: row-reverse;
     align-items: end;
-    justify-content: space-around;
+    justify-content: end;
 }
 .card3{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     align-items: start;
 }
 .card4{
     display: flex;
     flex-direction: row-reverse;
     align-items: end;
-    justify-content: center;
+    justify-content: space-between;
 }
 .card5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 500px;
 }
 .card6{
